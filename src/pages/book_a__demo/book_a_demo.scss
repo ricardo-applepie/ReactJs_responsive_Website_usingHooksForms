@@ -1,0 +1,67 @@
+.book-a-demo{
+     .book-a-demo-text{
+
+        background: #F9F9F9;
+        border-radius: 3px;
+        padding: 30px 25px 30px 25px ;
+ }
+    .book-a-demo-title{
+
+        font-family: "Roboto";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: bold;
+        color: #575757;
+        padding: 0 100px 0 0 ;
+        
+    }
+   
+    margin: 80px 0px 150px 0 ;
+    .book-a-demo-text{
+      
+        p{
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+
+        }
+        .evansName{
+            font-weight: bold;
+        }
+        span{
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+
+        }
+    }
+    .evans-company{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 180px;
+        margin: 20px 0 0 0 
+       }
+}
+
+
+
+@media screen and (max-width: 500px){
+
+ .book-a-demo-text{
+        margin: 60px 0px 60px 0;
+ }
+}
+
+@media screen and (min-width: 1200px){
+ .book-a-demo-text{
+        margin: 88px 130px 0 0;
+        background: #F9F9F9;
+        border-radius: 3px;
+        padding: 30px 25px 30px 25px ;
+ }
+}

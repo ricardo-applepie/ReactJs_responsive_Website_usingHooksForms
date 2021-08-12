@@ -1,0 +1,441 @@
+  @import 'bootstrap/scss/bootstrap';
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  @font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('./font/Archivo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+  $green:#A4D55D;
+
+  
+  
+  *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h2,h1,h3,p,img,body,button,ul,ol{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        color :#444444;
+    }
+    ul li{
+     list-style: none;
+    }
+ 
+    $white:#FFFFFF ;
+    $black:#444444;
+
+    a{
+     text-decoration: none ; 
+     color:$black ;
+    }
+    a:hover{
+    color: #444444;
+    }
+
+   .row{
+     margin: 0;
+   }
+
+    body{
+   font-family: 'Archivo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    scroll-behavior: smooth;
+     color: $black;
+    }
+    h2{
+      font-size: 20px;
+      font-weight: bold;
+       color: $black;
+    }
+
+    p{
+      font-size: 20px;
+      line-height: 1.1;
+      font-family: 'Roboto', sans-serif;
+      color: $black;
+    }
+    img{
+      width: auto;
+      height: auto;
+    }
+    input:invalid {
+  border: 2px dashed red;
+}
+
+.row > * {
+    flex-shrink: 0;
+   padding: 0;
+    margin:0;
+}
+ .emailValidator-error{
+    color: red;
+    font-size: 15px;
+    padding: 10px 0 0 0 ;
+    }
+
+
+    :-ms-input-placeholder { /* IE 10+ */
+  color: #7A7A7A;
+    font-size: 14px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+     color: #7A7A7A;
+     font-size: 14px;
+}
+  input{
+        margin: 0 20px 0 0 ;
+         color: #444444;
+        font-size: 16px;
+    }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #7A7A7A;
+  font-size: 14px;
+}
+input:focus{
+    outline:none ;
+    border: 1px solid #787878	;
+
+    }
+    
+    .password-explanation{
+        font-size: 9px;
+    }
+
+    label{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: block;
+    }
+
+    .display-flex{
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .display-flex-justify{
+      display: flex;
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+    .login__form-input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 5px 0 5px 0;
+    padding: 7px 0 7px 10px;
+}
+
+.remember-me {
+  margin: 30px 0 30px 0 ;
+ }
+ .already__have__and__account{
+     margin: 60px 0 100px 0;
+ }
+ .login__form_password{
+     position: relative;
+     img{
+            
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+     }
+     
+ }
+
+    .cls-1{font-size:39px;fill:#a3cf60;font-family:BookmanOldStyle-Bold, Bookman Old Style;font-weight:700;}.cls-2{fill:#2f434c;}
+.login-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 226px;
+    min-width: 226px;
+    margin: 0 auto 40px 0;
+}
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .register{
+        display: flex;
+        flex-direction: column;
+        .register__form {
+        width: 100%;
+        padding: 0 10px 0 10px;
+        }
+
+        .register__image{
+            width: 100%;
+            margin: 0 0 50px 0;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,146 @@
+.connect-data-smarter{
+    margin: 70px 0 0 0;
+}
+.connect-data-smarter{
+.connect-data-smarter__text{
+    margin: 120px 0 0 0;
+       
+    h1{
+        font-weight: bold;
+        font-size: 45px;
+        margin: 0 0 25px 0;
+    
+        
+    }
+   
+}
+.connect-data-smarter_btn-wrapper{
+    display: flex;
+    align-items: center;
+    margin: 50px 0 0 0 ;
+    
+}
+.connect-data-smarter_link{
+    margin: 0 0 0 60px;
+}
+a{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+}
+
+.what-can-you-do-with-metrics{
+    margin: 50px 0 0 0;
+  text-align: center;
+    .what-can-you-do-with-metrics_title-wrapper{        
+        
+    .what-can-you-do-with-metrics_title{
+        font-family: "Roboto";
+      font-size: 24px;   
+      font-weight: bold;
+      text-align: center;  
+      margin: 0 0 30px 0 ;
+    }
+
+    }
+    .what-can-you-do-with-metrics_sub-title{
+        font-family: 'Archivo';
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0 30px 0 ;
+        
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+.all-the-data-sources{
+    margin: 100px 0 0 0 ;
+    .all-the-data-sources-text {
+        margin: 200px 0 0 0 ;
+    }
+    .all-the-data-sources__explanation{
+        margin: 35px 0 0 0 ;
+          font-size: 18px ;
+          font-family: "Roboto";
+          line-height: 1.1;
+    }
+    h2{
+        font-size: 24px;
+         font-family: 'Archivo';
+         font-weight: bold;
+    }
+}
+
+.data_where-you-need-it{
+    margin: 100px 0 0 0 ;
+    .data_where-you-need-it-text{
+    padding: 180px 0 0 0 ;
+  
+    }
+    h2{
+        margin: 0 0 30px 0 ;
+    }
+    p{
+        font-size: 18px;
+        padding: 0 80px 0 0 ;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .footer__contents__wrapper{
+        margin: 0 ;
+    }
+    .connect-data-smarter,.all-the-data-sources-image,.data_where-you-need-it-image{
+       img{
+            width: 340px;
+       }
+       
+
+.green-btn {
+    
+    padding: 5px 27px 5px 27px;
+ 
+ }
+    }
+
+    .data_where-you-need-it {
+        .data_where-you-need-it-text {
+         padding: 0px 0 0 0;
+       }
+    }
+    .connect-data-smarter .connect-data-smarter__text {
+    margin: 0px 0 0 0;
+}
+.connect-data-smarter-p{
+    padding: 0;
+}
+}
+@media screen and (min-width: 900px){
+    .connect-data-smarter__text{
+   .connect-data-smarter-p{
+        padding: 0 190px 0 0;
+    }
+
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+.container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    max-width: 1471px ;
+}
+
+}
+
+
