@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ricardo-applepie.github.io/react-redux-registration-website/",
-  "name": "100metrics",
+  "homepage": "https://ricardo-applepie.github.io/react-redux-registration-website",
+  "name": "react-redux-registration-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
