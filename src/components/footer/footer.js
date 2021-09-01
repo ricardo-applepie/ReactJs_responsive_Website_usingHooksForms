@@ -17,7 +17,7 @@ function Footer ({hidegetstartedtoday}){
                         <p>Everything you need for professional-grade data extraction & reporting from 100’s of platforms.</p>
                 </div>
                 <div>
-                    <Button buttonStyle="green-btn" buttonLink="https://101metrics.com/accounts/sign-up/">
+                    <Button buttonStyle="green-btn" buttonLink="/register">
                       Sign Up Free
                     </Button>
                 </div>

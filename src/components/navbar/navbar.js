@@ -5,8 +5,10 @@ import Button from "../button/button";
 import { formerPageUrls } from "../../helper/helper";
 
 
-function Navbar (){
-    console.log(formerPageUrls.plan)
+function Navbar({ myRef}){
+  
+
+    const executeScroll = () => myRef.current.scrollIntoView()
     return (
         <div>
             <div class="container">
@@ -19,13 +21,13 @@ function Navbar (){
                       
                     </div>
                     <div class="col d-flex navbar__center">
-                        <div className="nav__item"><a href={formerPageUrls.features}>Product</a>  </div>
-                        <div className="nav__item"><a href={formerPageUrls.plan}>Pricing</a>  </div>
-                        <div className="nav__item"><a href={formerPageUrls.caseStudies}>Customers</a>  </div>
-                        <div className="nav__item"><a href={formerPageUrls.blog}>Blog</a>  </div>
+                        <div onClick={executeScroll} className="nav__item"><Link to="/">Product</Link>  </div>
+                        <div className="nav__item"><Link to={formerPageUrls.plan}>Pricing</Link>  </div>
+                        <div className="nav__item"><Link to={formerPageUrls.caseStudies}>Customers</Link> </div>
+                        <div className="nav__item"><Link to={formerPageUrls.blog}>Blog</Link>  </div>
                     </div>
                     <div class="col d-flex align-items-center">
-                        <div className="nav__item"><a href={formerPageUrls.signin}>Sign In </a>  </div>
+                        <div className="nav__item"><Link to={formerPageUrls.signin}>Sign In </Link> </div>
                         <Button buttonStyle="default-btn" buttonLink={formerPageUrls.signup}>
                            Sign Up for Free 
                         </Button>

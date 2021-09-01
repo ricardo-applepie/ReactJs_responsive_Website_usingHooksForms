@@ -14,11 +14,11 @@ import Footer from "../../components/footer/footer";
 import { formerPageUrls} from "../../helper/helper";
 
 
-function Homepage (){
-
+function Homepage({ myRef}){
+  console.log(myRef)
     return(  
         <div>
-           <Navbar/>
+            <Navbar myRef={myRef}/>
                 <div class="container ">
                     <div class="row align-items-start connect-data-smarter">
                         <div class="col ">
@@ -47,7 +47,7 @@ function Homepage (){
                         </div>
                      
                     </div>
-                 <div className="what-can-you-do-with-metrics">
+                  <div ref={myRef} className="what-can-you-do-with-metrics">
                         <div className="what-can-you-do-with-metrics_title-wrapper">
                             <h2 className="what-can-you-do-with-metrics_title"> What You Can DO WIth 101Metrics</h2>
                         </div>

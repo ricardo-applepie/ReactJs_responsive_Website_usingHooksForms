@@ -1,4 +1,5 @@
-import "./styles/custom.scss"
+import "./styles/custom.scss";
+import { useRef} from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,12 +13,13 @@ import ResetUpdate from "./pages/rest_update/reset_update";
 import LoginConfirmation from "./pages/rest_confirm/LoginConfirmation";
 import Register from "./pages/register/register";
 function App() {
+  const myRef = useRef(null)
   return (
     <div className="page__width">
       <Router>
         <Switch>
           <Route exact path="/">
-            <Homepage/>
+            <Homepage myRef={myRef} />
           </Route>
           <Route  path="/book">
             <BookADemo/>
