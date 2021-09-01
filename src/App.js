@@ -18,7 +18,7 @@ function App() {
     <div className="page__width">
       <Router>
         <Switch>
-          <Route exact path="/react-redux-registration-website">
+          <Route exact path="/">
             <Homepage myRef={myRef} />
           </Route>
           <Route  path="/book">
