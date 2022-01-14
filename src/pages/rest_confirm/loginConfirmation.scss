@@ -1,47 +1,51 @@
+$pageoverLay: #f3f7fa;
 
-$pageoverLay:#F3F7FA;
-
-.login-confirmation-wrapper{
-   background-color: $pageoverLay;
-   height: 100vh;
+.login-confirmation-wrapper {
+  background-color: $pageoverLay;
+  height: 100vh;
 }
 
-.login-confirmation{
-    max-width: 656px ;
-    padding:20% 0 0 0 ;
-    margin: 0 auto;
+.login-confirmation {
+  max-width: 656px;
+  padding: 20% 0 0 0;
+  margin: 0 auto;
 
-    .login-confirmation-img,.login-confirm-btn-wrapper{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-   
+  .login-confirmation-img,
+  .login-confirm-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reset-confirm-text {
+    text-align: center;
+    font-size: 15px;
+  }
+  .reset-confirm-receive-email {
+    text-align: left;
+    font-size: 15px;
+    text-align: center;
+    span {
+      color: #a4d55d;
     }
-    .reset-confirm-text{
-        text-align: center;
-        font-size: 15px;
-      
-    }
-    .reset-confirm-receive-email{
-        text-align: left;
-         font-size: 15px;
-         text-align: center;
-         span{
-             color:#A4D55D ;
-         }
-    }
-    .reset-confirm-text-wrapper{
-    margin: 20px 0 60px 0 ;
+  }
+  .reset-confirm-text-wrapper {
+    margin: 20px 0 60px 0;
     padding: 0 19px 0 19px;
-
-}
-}
-  
-.login-confirmation-img{
-    max-width: 225px ;
-    min-width: 202px;
-    margin: 0 auto;
-    padding: 0 0 50px 0 ;
-      .cls-1{font-size:39px;fill:#a3cf60;font-family:BookmanOldStyle-Bold, Bookman Old Style;font-weight:700;}.cls-2{fill:#2f434c;}
+  }
 }
 
+.login-confirmation-img {
+  max-width: 225px;
+  min-width: 202px;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+  .cls-1 {
+    font-size: 39px;
+    fill: #a3cf60;
+    font-family: BookmanOldStyle-Bold, Bookman Old Style;
+    font-weight: 700;
+  }
+  .cls-2 {
+    fill: #2f434c;
+  }
+}

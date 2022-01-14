@@ -1,130 +1,125 @@
-.book_a_demo-form{
-    .book_a_demo-form_title{
-        h1{
-            font-family: "Roboto";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-        }
-
+.book_a_demo-form {
+  .book_a_demo-form_title {
+    h1 {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
     }
-      border:6px solid #A4D55D;
-       max-width: 500px;
-  .book_a_demo-form-wrapper{
-      width: 400px;
-      margin: 40px auto;
-
   }
-    border-radius: 5px;
-    .work-mail,.full-name{
-        
-        background: #FFFFFF;
-         padding: 8px 0px 8px 15px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        box-sizing: border-box;
-        border-radius: 5px;
-        margin: 15px 0 0 0;
-    }
-    .form-btn-wrapper{
-        margin: 20px 0 0 0;
-    }
-    .company-input-wrapper{
-    
- 
-    .company-size,.company-name{
-    width: 49%;
+  border: 6px solid #a4d55d;
+  max-width: 500px;
+  .book_a_demo-form-wrapper {
+    width: 400px;
+    margin: 40px auto;
+  }
+  border-radius: 5px;
+  .work-mail,
+  .full-name {
+    background: #ffffff;
     padding: 8px 0px 8px 15px;
-    background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     border-radius: 5px;
+    margin: 15px 0 0 0;
+  }
+  .form-btn-wrapper {
+    margin: 20px 0 0 0;
+  }
+  .company-input-wrapper {
+    .company-size,
+    .company-name {
+      width: 49%;
+      padding: 8px 0px 8px 15px;
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      border-radius: 5px;
     }
-    }
- ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #BFBFBF;
-  font-size: 14px;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #BFBFBF;
+  }
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #bfbfbf;
     font-size: 14px;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #bfbfbf;
+    font-size: 14px;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #bfbfbf;
+    font-size: 14px;
+  }
 }
-::-moz-placeholder { /* Firefox 19+ */
-    color: #BFBFBF;
-     font-size: 14px;
-}
- 
-}
 
-
-
-
-@media screen and (max-width: 500px){
-    .book_a_demo-form{
-    .book_a_demo-form_title{
-        width: 300px ;
+@media screen and (max-width: 500px) {
+  .book_a_demo-form {
+    .book_a_demo-form_title {
+      width: 300px;
     }
-    .work-mail{
-        width: 300px;
+    .work-mail {
+      width: 300px;
     }
     .form-btn {
-    color: #FFFFFF;
-    background: #A4D55D;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding: 10px 0 10px 0;
-    width: 300px;
-    border: none;
- }
- .book-a-demo-text {
-    margin: 60px 0 60px 0;
-    background: #F9F9F9;
-    border-radius: 3px;
-    padding: 30px 25px 30px 25px;
-}
- .book_a_demo-form-wrapper {
-    width: 326px;
-    margin: 40px auto;
-}
-  .company-input-wrapper {
-    max-width: 300px;
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 0 0 0;
-}  
- 
+      color: #ffffff;
+      background: #a4d55d;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 10px 0 10px 0;
+      width: 300px;
+      border: none;
     }
-  
-}
-
-@media screen and (min-width: 1200px){
-    .book_a_demo-form{
-    .book_a_demo-form_title{
-        width: 300px ;
+    .book-a-demo-text {
+      margin: 60px 0 60px 0;
+      background: #f9f9f9;
+      border-radius: 3px;
+      padding: 30px 25px 30px 25px;
     }
-     .book-a-demo-text {
-    margin: 63px 0px 63px 0;
-    background: #F9F9F9;
-    border-radius: 3px;
-    padding: 19px 18px 30px 25px;
-}
-       .work-mail,.full-name{
-        min-width: 400px;
-        background: #FFFFFF;
-         padding: 8px 0px 8px 15px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        box-sizing: border-box;
-        border-radius: 5px;
-        margin: 15px 0 0 0;
+    .book_a_demo-form-wrapper {
+      width: 326px;
+      margin: 40px auto;
     }
     .company-input-wrapper {
-    max-width: 400px;
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 0 0 0;
+      max-width: 300px;
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0 0 0;
+    }
+  }
 }
-    .work-mail,.full-name{
-        width: 297px;
-    }
-    }
 
+@media screen and (min-width: 1200px) {
+  .book_a_demo-form {
+    .book_a_demo-form_title {
+      width: 300px;
+    }
+    .book-a-demo-text {
+      margin: 63px 0px 63px 0;
+      background: #f9f9f9;
+      border-radius: 3px;
+      padding: 19px 18px 30px 25px;
+    }
+    .work-mail,
+    .full-name {
+      min-width: 400px;
+      background: #ffffff;
+      padding: 8px 0px 8px 15px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin: 15px 0 0 0;
+    }
+    .company-input-wrapper {
+      max-width: 400px;
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0 0 0;
+    }
+    .work-mail,
+    .full-name {
+      width: 297px;
+    }
+  }
 }

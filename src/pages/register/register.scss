@@ -1,47 +1,45 @@
-
- $green:#A4D55D;
+$green: #a4d55d;
 .register__form {
-    width: 30%;
-    padding: 0 70px 0 0px;
+  width: 30%;
+  padding: 0 70px 0 0px;
 }
 
-.register__image{
-    width: 60%;
+.register__image {
+  width: 60%;
 }
-.register{
-    .emailValidator-error{
-        text-align: left;
-    }
-    .register__logo{
+.register {
+  .emailValidator-error {
+    text-align: left;
+  }
+  .register__logo {
     margin: 0 0 100px 0;
+  }
+  .logo__svg {
+    margin: 40px 0 0;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 0 40px 0;
+  }
+  p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .data__connections {
+    margin: 0 0 40px;
+  }
+  .register__firstAndLastname {
+    div {
+      width: 48%;
     }
-    .logo__svg{
-        margin: 40px 0 0 ;
-    }
-    h1{
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        margin: 100px 0 40px 0;
-    }
-    p{
-        font-family: "Roboto";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-    }
-    .data__connections{
-        margin: 0 0 40px ;
-    }
-    .register__firstAndLastname{
-        div{
-            width: 48%;
-           
-        }
-    }
-span{
-    color:$green;
-}
+  }
+  span {
+    color: $green;
+  }
 }

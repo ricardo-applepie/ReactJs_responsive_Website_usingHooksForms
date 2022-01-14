@@ -1,117 +1,117 @@
-$pageoverLay:#F3F7FA;
-.page__overlay{
-
-    background-color: $pageoverLay;
-    height: 100vh;
-    padding: 0 0 100px 0 ;
+$pageoverLay: #f3f7fa;
+.page__overlay {
+  background-color: $pageoverLay;
+  height: 100vh;
+  padding: 0 0 100px 0;
 }
-.login-wrapper{
+.login-wrapper {
   max-width: 600px;
-  margin: 0  auto;
+  margin: 0 auto;
   padding: 150px 0 0 0;
 
-    .login{
-    background: #FFFFFF;
+  .login {
+    background: #ffffff;
     padding: 15px 90px 70px 90px;
     box-shadow: 0px 24px 50px rgba(88, 88, 88, 0.25);
     border-radius: 8px;
 
-
-    .emailValidator-error{
-    color: red;
-    font-size: 15px;
-    text-align: left;
+    .emailValidator-error {
+      color: red;
+      font-size: 15px;
+      text-align: left;
     }
-    .login__form-input{
-        width: 100%;
-        background: #FFFFFF;
-        border: 1px solid #C7C7C7;
-        box-sizing: border-box;
-        border-radius: 8px;
-        margin: 5px 0 5px 0;
-        padding:  7px 0 7px 10px;
-     }
-
+    .login__form-input {
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid #c7c7c7;
+      box-sizing: border-box;
+      border-radius: 8px;
+      margin: 5px 0 5px 0;
+      padding: 7px 0 7px 10px;
     }
-      .login-img{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      max-width: 226px;
-      min-width: 226px;
- 
-    .cls-1{font-size:39px;fill:#a3cf60;font-family:BookmanOldStyle-Bold, Bookman Old Style;font-weight:700;}.cls-2{fill:#2f434c;}
-      margin: 0 auto 40px auto ;
   }
-  .login-welcome-back{
-      text-align: center;
-      margin: 0 0 30px 0 ;
-      p{
-          font-size: 14px;
-          margin: 20px 0 0 0 ;
-      }
+  .login-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 226px;
+    min-width: 226px;
 
+    .cls-1 {
+      font-size: 39px;
+      fill: #a3cf60;
+      font-family: BookmanOldStyle-Bold, Bookman Old Style;
+      font-weight: 700;
+    }
+    .cls-2 {
+      fill: #2f434c;
+    }
+    margin: 0 auto 40px auto;
   }
-    span a{
-        color:#A4D55D ;
+  .login-welcome-back {
+    text-align: center;
+    margin: 0 0 30px 0;
+    p {
+      font-size: 14px;
+      margin: 20px 0 0 0;
     }
-    .forgot-password{
-        text-align: center;
-    }
-   
+  }
+  span a {
+    color: #a4d55d;
+  }
+  .forgot-password {
+    text-align: center;
+  }
 
-
-.remember-me{
+  .remember-me {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 15px 0 0 0 ;
-    
-    input{
-        margin: 0 20px 0 0 ;
-         color: #444444;;
+    margin: 15px 0 0 0;
+
+    input {
+      margin: 0 20px 0 0;
+      color: #444444;
     }
-    p{
-    font-size:14px ;
-    }
-}
-.forgot-password{
     p {
-        font-size: 14px;
+      font-size: 14px;
     }
-}
-.login__form_password{
+  }
+  .forgot-password {
+    p {
+      font-size: 14px;
+    }
+  }
+  .login__form_password {
     position: relative;
-    img{
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        cursor: pointer;
+    img {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
     }
+  }
 }
-}
 
-
-@media screen and (max-width:499px){
-
-.login-wrapper .login {
-    background: #FFFFFF;
+@media screen and (max-width: 499px) {
+  .login-wrapper .login {
+    background: #ffffff;
     padding: 15px 47px 70px 47px;
     margin: 20px;
-     border-radius: 8px;
-}
-
-.navbar .nav__item {
-    margin: 0 20px 0 0px;
-}
-}
-.update__input{
-    position: relative;
-}
-
-  .update__input-text{
-      font-size: 10px;
-      font-family: "Archivo";
-      text-align: center;
-      padding: 10px 0 7px 0 ;
+    border-radius: 8px;
   }
+
+  .navbar .nav__item {
+    margin: 0 20px 0 0px;
+  }
+}
+.update__input {
+  position: relative;
+}
+
+.update__input-text {
+  font-size: 10px;
+  font-family: 'Archivo';
+  text-align: center;
+  padding: 10px 0 7px 0;
+}
