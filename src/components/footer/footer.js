@@ -1,7 +1,6 @@
 import React from 'react';
 import './footer.scss';
 import footerLogo from '../../images/101_logo.png';
-
 import Button from '../button/button';
 import { Link } from 'react-router-dom';
 import { formerPageUrls } from '../../helper/helper';
