@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './login.scss';
 import passwordEyeDisplay from '../../images/hide.png';
 import Button from '../../components/button/button';
-
 import validator from 'validator';
 import { formerPageUrls } from '../../helper/helper';
 import { reactPageUrls } from '../../helper/helper';
